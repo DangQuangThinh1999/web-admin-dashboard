@@ -5,7 +5,7 @@ import _ from "lodash";
 import { memo } from "react";
 import { useDragTaskAndDrop } from "@/hooks/useDragTaskAndDrop";
 
-import styles from "../Kanban.module.scss";
+import styles from "@/pages/kanban/Kanban.module.scss";
 import classNames from "classnames/bind";
 
 const cx = classNames.bind(styles);

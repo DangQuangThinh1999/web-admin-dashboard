@@ -48,7 +48,7 @@ export const options = {
       display: false,
       text: "Chart.js Line Chart",
     },
- 
+
     tooltip: {
       displayColors: false,
       backgroundColor: "black",
@@ -63,6 +63,6 @@ export const options = {
   },
 };
 
-export function SparkLine() {
+export default function SparkLine() {
   return <Line options={options} data={data} />;
 }

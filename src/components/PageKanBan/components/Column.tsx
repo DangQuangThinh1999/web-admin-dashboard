@@ -6,7 +6,7 @@ import { ColumnType } from "@/utils/enums";
 import Task from "./Task";
 import { TaskModel } from "@/utils/models";
 import Typography from "@mui/material/Typography";
-import styles from "../Kanban.module.scss";
+import styles from "@/pages/kanban/Kanban.module.scss";
 import classNames from "classnames/bind";
 import { pink, purple } from "@mui/material/colors";
 import useColumnDrop from "@/hooks/useColumnDrop";

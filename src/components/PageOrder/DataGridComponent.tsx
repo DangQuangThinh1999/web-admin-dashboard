@@ -100,7 +100,7 @@ function renderCellExpandLocation(params: GridRenderCellParams<any, string>) {
 }
 
 export default function DataGridComponent({ dataRows, dataColumns }: Props) {
-  const columns: GridColDef[] = dataColumns.map((column, index) => {
+  const columns: GridColDef[] = dataColumns?.map((column, index) => {
     if (column.headerText === "Status") {
       return {
         ...column,

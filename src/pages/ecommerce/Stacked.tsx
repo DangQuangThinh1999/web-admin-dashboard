@@ -60,6 +60,6 @@ export const data = {
   ],
 };
 
-export function Stacked() {
+export default function Stacked() {
   return <Bar width={"auto"} height={"550px"} options={options} data={data} />;
 }

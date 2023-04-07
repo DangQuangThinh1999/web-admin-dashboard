@@ -2,10 +2,12 @@ import { ColumnType } from "@/utils/enums";
 import { Box, Grid } from "@mui/material";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-import Column from "./components/Column";
+import Column from "../../components/PageKanBan/components/Column";
 import dynamic from "next/dynamic";
 
-const DynamicComponent = dynamic(() => import("./components/Column"));
+const DynamicComponent = dynamic(
+  () => import("../../components/PageKanBan/components/Column")
+);
 const Kanban = () => {
   return (
     <DndProvider backend={HTML5Backend}>

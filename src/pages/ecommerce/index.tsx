@@ -11,8 +11,8 @@ import classNames from "classnames/bind";
 
 import { earningData, SparkLineAreaData } from "@/data/dummy";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
-import { SparkLine } from "./SparkLine";
-import { Stacked } from "./Stacked";
+import SparkLine from "./SparkLine";
+import Stacked from "./Stacked";
 
 const cx = classNames.bind(styles);
 

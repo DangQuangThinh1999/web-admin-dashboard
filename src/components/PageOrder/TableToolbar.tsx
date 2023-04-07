@@ -8,7 +8,7 @@ import {
   GridToolbarExport,
 } from "@mui/x-data-grid";
 import Box from "@mui/material/Box";
-import styles from "./Orders.module.scss";
+import styles from "@/pages/orders/Orders.module.scss";
 import classNames from "classnames/bind";
 const cx = classNames.bind(styles);
 
