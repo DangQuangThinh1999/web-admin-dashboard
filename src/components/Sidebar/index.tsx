@@ -1,4 +1,4 @@
-import { SiShopware } from "react-icons/Si";
+import { SiShopware } from "react-icons/si";
 import { IconButton, Tooltip, Box, Typography, Icon } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import Link from "next/link";
