@@ -1,0 +1,64 @@
+@import "@/styles/globalStyles";
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.start-wrapper {
+  background-color: white;
+  height: 152px;
+  border-radius: 0.75rem;
+  width: 100%;
+  padding: 32px;
+  padding-top: 36px;
+  margin: 12px;
+}
+.dark {
+  color: rgb(229, 231, 235);
+  background-color: rgb(35, 33, 33);
+}
+.dark-btn {
+  color: rgb(229, 231, 235);
+  background-color: rgb(244 244 245);
+}
+.light-btn {
+  background-color: white;
+  padding: 16px;
+  padding-top: 36px;
+  border-radius: 0.75rem; /* 12px */
+}
+.earning-data {
+  padding: 12px;
+  padding-top: 36px;
+  border-radius: 1rem;
+}
+.light-data {
+  background-color: white;
+}
+.dark-data {
+  background-color: rgb(48, 43, 43);
+  color: rgb(229, 231, 235);
+}
+.chart {
+  
+  margin: 12px;
+  border-radius: 1rem;
+  padding: 10px;
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    flex-wrap: nowrap;
+  }
+  .start-wrapper {
+    width: 320px;
+  }
+}
+@media (min-width: 768px) {
+  .earning-data {
+    width: 224px;
+  }
+  .chart {
+    width: 780px;
+  }
+}

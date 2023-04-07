@@ -1,0 +1,15 @@
+@import "@/styles/globalStyles";
+
+
+
+@media (min-width: 768px) {
+  .last-sidebar {
+    position: static;
+  }
+  .first-sidebar {
+    margin-left: 288px;
+  }
+}
+.first-sidebarFalse {
+  flex: 2 2 0%;
+}
