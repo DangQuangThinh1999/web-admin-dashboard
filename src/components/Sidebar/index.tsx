@@ -42,7 +42,7 @@ const Sidebar = () => {
               href="/"
               onClick={handleCloseSidebar}
             >
-              <SiShopware style={{ color: theme.palette.text.primary }} />
+              
               <Typography color="text.primary" component="span">
                 Shoppy
               </Typography>
